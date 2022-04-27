@@ -1,0 +1,132 @@
+*{
+    background-color: #DCDCDC;
+   
+}
+.column1 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column2 {
+    float: left;
+    width: 33.33%;
+  }
+   /* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+ 
+  .column3 {
+    float: left;
+    width: 33.33%;
+  }
+   /* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+  
+  .firstname ::placeholder{
+      background-color: white;
+  }
+  .colum4 {
+    float: left;
+    width: 20%;
+  }
+  
+  
+  .colum5 {
+    float: left;
+    width: 10%;
+  }
+   /* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+ .mdy{
+     float: left;
+     width: 50%;
+ }
+  
+ .colum6 {
+    float: left;
+    width: 10%;
+  }
+   /* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+   }
+   
+
+*::placeholder{
+    background-color: white;
+}
+.city{
+  float: left;
+  width: 50%;
+}
+.email{
+  float: left;
+  width: 50%;
+}
+.phone{
+  float: left;
+  width: 50%;
+}
+#addcomment{
+  height: 150px;
+}
+.submit{
+  float: left;
+  width: 50%;
+}
+.submit button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.clear button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#addcomment{
+  background-color: white;
+}
+#year{
+  background-color: white;
+}
+ #day{
+  background-color: white;
+ } 
+#month{
+  background-color: white;
+}
+input{
+  border-color: blue;
+}

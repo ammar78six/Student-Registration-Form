@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+
+    <div>
+        <h1>Student Registration Form</h1>
+        <p>Fill out the form carefully for registration</p>
+    </div>
+    <div>
+        <p>Student Name</p>
+
+    </div>
+    <form>
+
+        <div class="row">
+            <div class="column1">
+                <div class="firstname">
+                    <input type="text" size="30" spellcheck="true" placeholder="First Name">
+                    <p>First Name</p>
+                </div>
+
+            </div>
+            <div class="column2">
+                <div class="firstname">
+                    <input type="text" size="30" spellcheck="true" placeholder="Middle Name">
+                    <p>Middle Name</p>
+                </div>
+            </div>
+            <div class="column3">
+                <div class="firstname">
+                    <input type="text" size="30" spellcheck="true" placeholder="Last Name">
+                    <p>Last Name</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="mdyall">
+            <div class="mdy">
+
+                <div class="colum4">
+                    <label for="month"></label>
+                    <select id="month" name="month">
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March ">March </option>
+                        <option value="April ">April </option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July ">July </option>
+                        <option value="August">August </option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <p>Month</p>
+                </div>
+                <div class="colum5">
+                    <label for="day"></label>
+                    <select id="day" name="day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+
+                    </select>
+                    <p>Day</p>
+                </div>
+                <div class="colum6">
+                    <label for="year"></label>
+                    <select id="year" name="year">
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
+
+                    </select>
+                    <p>Year</p>
+                </div>
+            </div>
+            <div class="gender">
+                <p>Gender</p>
+                <label for="gender"></label>
+                <select id="gender" name="gemder">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="address">
+            <p>Address</p>
+            <input type="text" size="152" placeholder="Address Here">
+        </div>
+        <div class="street">
+            <p>Street Address</p>
+            <input type="text" size="152" placeholder="Street Address Here">
+        </div>
+        <br>
+        <div class="citystate">
+            <div class="city">
+                <input type="text" size="62" placeholder="Enter Your City Name">
+                <p>City</p>
+            </div>
+            <div class="state">
+                <input type="text" size="62" placeholder="Enter Your State Name">
+                <p>State/Province</p>
+            </div>
+        </div>
+        <div class="postal">
+            <p>Postal Code</p>
+            <input type="text" size="152" placeholder="Post Code Here">
+        </div>
+        <br>
+        <div class="contact">
+            <div class="email">
+                <p>E-mail</p>
+                <input type="text" size="62" placeholder="Enter Your E-mail">
+            </div>
+            <div class="mobileno">
+                <p>Mobile Number</p>
+                <input type="text" size="62" placeholder="Enter Your Mobile Number">
+            </div>
+        </div>
+        <br>
+
+        <div class="work">
+            <div class="phone">
+                <p>Phone Number</p>
+                <input type="text" size="62" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="wnumber">
+                <p>Mobile Number</p>
+                <input type="text" size="62" placeholder="Enter Your Work Number">
+            </div>
+        </div>
+        <br>
+        <div class="company">
+            <p>Company</p>
+            <input type="text" size="152" placeholder="Company">
+        </div>
+        <br>
+        <div class="courses">
+            <p>Courses</p>
+            <label for="courses"></label>
+            <select id="courses" name="courses">
+                <option value="bscs">BSCS</option>
+                <option value="bsse">BSSE</option>
+            </select>
+        </div>
+        <br>
+        <div class="additional comment">
+            <textarea id="addcomment" name="addcomment" placeholder="Write Additional Comment:" style="width: 1100px"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="buttons" onclick="btnClear">
+            <div class="submit">
+                <button type="submit">Submit Application</button>
+
+            </div>
+            <div class="clear" onclick="btnClear">
+                <button type="reset">Clear Fields</button>
+
+            </div>
+        </div>
+        <br>
+        
+        
+    </form>
+</body>
+
+</html>
